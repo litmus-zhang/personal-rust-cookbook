@@ -1,0 +1,13 @@
+[package]
+name = "sample"
+version = "0.1.0"
+edition = "2021"
+authors = ["Litmus Zhang <abdulsalamlukmon9@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+time = "0.1.12"
+rand = {git = "https://github.com/rust-lang-nursery/rand.git"}
+regex = "0.1.4"
+
